@@ -9,4 +9,4 @@ CREATE PROCEDURE ejemplo1_sp()
 BEGIN
  select "esto es un ejemplo de procedimiento" as 'mensaje';
 END //
--- call ejemplo1_sp();
+ call ejemplo1_sp();
