@@ -1,4 +1,5 @@
 use BD06;
+-- se pùede hacer de otra forma
 drop procedure if exists ejemplo10_sp;
 delimiter $$
 create procedure ejemplo10_sp(_user varchar(15), _password varchar(15), out _mensaje varchar(20))
